@@ -1,12 +1,13 @@
 import React from 'react';
-import zyzz from '../../shared/images/zyzz.svg'
+import zyzz from '../../shared/images/zyzz.svg';
+import { Link } from 'react-router-dom';
+import '../Home/Home.css';
 
 export default function Character(props) {
-    const {title, image,description} = props;
+    const {title,description,id} = props;
 
     return(
-        <div className='row'>
-            <div className='col-3'>
+            <div className='col-4'>
                 <div className='card-body'>
                     <h3 className='card-title'>{title}</h3>
                 </div>
@@ -17,11 +18,10 @@ export default function Character(props) {
                         className='card-img-top'
                     />
                     <div className='card-body'>
-                        <h3 className='card-title'>{description}</h3>
+                        <Link to={`/notes/${id}`}>{description}</Link>
                     </div>
                 </div>
             </div>
-        </div>
        
     )
 }

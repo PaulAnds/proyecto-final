@@ -6,6 +6,8 @@
 }
 
 .Notes ul li {
+    margin: auto;
+    max-width: 900px;
     padding: 10px;
 }
 

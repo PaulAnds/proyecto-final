@@ -15,7 +15,6 @@ const AppRoutes = () => (
             <Route path='/uicharacters' element={<CharacterUI />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/notes' element={<Notes />} />
             <Route path='/notes/:noteId' element={<Notes />} />
             <Route path='*' element={<Error404 />} />
         </Routes>

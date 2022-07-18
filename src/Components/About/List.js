@@ -15,24 +15,19 @@ let list = [
         description: 'PIERNAS Y HOMBROS'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Thursday',
         description: 'TRICEP Y PECHO'
     },
     {
-        id: 3,
+        id: 5,
         title: 'Friday',
         description: 'ESPALDA Y BICEP'
     },
     {
-        id: 3,
+        id: 6,
         title: 'Saturday',
         description: 'PIERNAS Y HOMBROS'
-    },
-    {
-        id: 3,
-        title: 'Sunday',
-        description: 'NO HAGAS NADA'
     },
 
 ];

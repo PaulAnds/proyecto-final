@@ -21,9 +21,8 @@ const Header = (props) => {
 
             <ul>
                 <li><Link to ="/">Home </Link></li>
-                <li><Link to ="/about">About </Link></li>
-                <li><Link to ="/notes">Notes </Link></li>
-                <li><Link to ="/contact">Contact</Link></li>
+                <li><Link to ="/about">Workouts </Link></li>
+                <li><Link to ="/contact">Gains</Link></li>
             </ul>
         </header>
     );

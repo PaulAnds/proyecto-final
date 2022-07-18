@@ -1,18 +1,33 @@
 let notes = [
     {
         id: 1,
-        title: 'Note 1',
-        description: ' Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,'
+        title: 'TRICEP Y PECHO',
+        description: 'Training for muscle growth has more to do with challenging and tiring out your muscles. As long as you push your muscles close to failure, you get similar muscle growth from anything between 5–40 reps per set (~40–85% of 1RM).'
     },
     {
         id: 2,
-        title: 'Note 2',
-        description: ' Lorem Ipsum ha  2400,'
+        title: 'ESPALDA Y BICEP',
+        description: 'Training for strength revolves around learning to move heavy weights. Powerlifters and weightlifters routinely train with weights in the 1–5 rep range (>85% of 1RM), altough higher rep ranges have also been proven effective for strength gains,'
     },
     {
         id: 3,
         title: 'Note 3',
-        description: ' Lorem Ipsum ha  3400,'
+        description: 'One study measured the fat-free mass of 20 elite male powerlifters and found a strong correlation (r=0.88) with their bench press 1RM. Their level of fat-free mass, of which a large part is muscle, explained 77% of their strength in the bench press.'
+    },
+    {
+        id: 4,
+        title: 'TRICEP Y PECHO',
+        description: 'Training for muscle growth has more to do with challenging and tiring out your muscles. As long as you push your muscles close to failure, you get similar muscle growth from anything between 5–40 reps per set (~40–85% of 1RM).'
+    },
+    {
+        id: 5,
+        title: 'ESPALDA Y BICEP',
+        description: 'Training for strength revolves around learning to move heavy weights. Powerlifters and weightlifters routinely train with weights in the 1–5 rep range (>85% of 1RM), altough higher rep ranges have also been proven effective for strength gains,'
+    },
+    {
+        id: 6,
+        title: 'Note 3',
+        description: 'One study measured the fat-free mass of 20 elite male powerlifters and found a strong correlation (r=0.88) with their bench press 1RM. Their level of fat-free mass, of which a large part is muscle, explained 77% of their strength in the bench press.'
     },
 
 ];

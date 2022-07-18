@@ -1,20 +1,22 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Cards from './Cards';
 import list from './List';
+import './About.css'
 
-function About(props) {
+function About() {
 
 
     const ListTag = () => list.map(lists => (
         <Cards
             key={lists.id}
+            id={lists.id}
             title={lists.title}
             description={lists.description}
         />
     ))
 
     return (
-        <div>
+        <div className= "row">
              <ListTag />
         </div>
     );

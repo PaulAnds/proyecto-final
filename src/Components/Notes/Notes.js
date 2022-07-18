@@ -49,7 +49,7 @@ const Notes = () => {
    
     return (
         <div className = "Notes">
-            <h1>Notes ♠</h1>   
+            <h1>WorkOut!</h1>   
             {renderNotes(selectedNote || notes )}
         </div>
     );

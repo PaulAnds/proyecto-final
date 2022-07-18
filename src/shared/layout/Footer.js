@@ -7,7 +7,7 @@ const Footer = () => {
     }
     return (
         <footer style={root}>
-            &copy; Web2 {new Date().getFullYear()}
+            &copy; WEGOJIM {new Date().getFullYear()}
         </footer>
     );
 
