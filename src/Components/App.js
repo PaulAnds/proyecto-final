@@ -10,7 +10,7 @@ import {element} from 'prop-types';
 function App(props) {
   return (
     <div className="App">
-      <Header title="Routing"/>
+      <Header title="THE LEGACY"/>
       <Content >
         {/* Components */}
         {props.children}
