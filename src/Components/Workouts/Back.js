@@ -17,7 +17,7 @@ let backdata = [
         id: 3,
         day: 2,
         title: 'JPG Lat pulldown',
-        url: 'https://global-uploads.webflow.com/5d1d0d3f53ced35a29dbe169/5e2a552a38b3bd766a0167ff_incline-dumbbell-fly-exercise-anabolic-aliens.pnghttps://gymvisual.com/20028-thickbox_default/cable-kneeling-one-arm-lat-pulldown.jpg',
+        url: 'https://gymvisual.com/20028-thickbox_default/cable-kneeling-one-arm-lat-pulldown.jpg',
         data: 'jpglatpulldown'
     },
     {

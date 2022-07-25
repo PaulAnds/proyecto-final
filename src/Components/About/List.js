@@ -35,6 +35,12 @@ let list = [
         url: "https://www.muscleandfitness.com/wp-content/uploads/2018/06/Bumstead_Legs.jpg?quality=86&strip=all",
         description: 'LEG AND SHOULDER'
     },
+    {
+        id: 7,
+        title: 'Sunday',
+        url: "https://www.sleepassociation.org/wp-content/uploads/ASA-Long-Sleeping-Featured.jpg",
+        description: 'REST DAY'
+    },
 
 ];
 

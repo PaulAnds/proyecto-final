@@ -11,8 +11,7 @@ export default function Explanation(props) {
                     width = '300rem'
                     alt = {title}
                 />
-            <h3>4 x {(localStorage.getItem(title) != null)? localStorage.getItem(title):0 }</h3>
-            <h3>-------------</h3>
+            <h3>{(localStorage.getItem(title) != null)?localStorage.getItem(title) + ' lb':'First Timer!' }</h3>
         </div>
     )
 }
