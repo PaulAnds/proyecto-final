@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Contact(props) {
+function Graph(props) {
     return (
         <div>
             <h1>Gains</h1>
@@ -8,4 +8,4 @@ function Contact(props) {
     );
 }
 
-export default Contact;
+export default Graph;

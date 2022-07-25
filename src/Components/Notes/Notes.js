@@ -3,6 +3,10 @@ import  React from 'react';
 import { getNotes } from '../../data';
 import { Link, useParams } from 'react-router-dom';
 import './Notes.css';
+import Chest from '../Workouts/Chest';
+import Back from '../Workouts/Back';
+import Legs from '../Workouts/Legs';
+import Explanation from './Explanation';
 
 const Notes = () => {
     let notes = getNotes();
@@ -37,7 +41,7 @@ const Notes = () => {
                                 <p>{note.description}</p>
                             </div>
                             :
-                            <Link to={`/notes/${note.id}`}>{note.title}</Link>
+                            <Link to={`/Workouts/${note.id}`}>{note.title}</Link>
                         }
 
                     </li>
@@ -45,12 +49,65 @@ const Notes = () => {
             }
         </ul> 
     )
-
    
+    const RenderData = () => (localStorage.getItem('day') == 1? 
+    <ul>
+        { 
+            Chest.map((data, key) => (
+                <li key={key}>
+                    
+                <Explanation
+                    id={data.id}
+                    title={data.title}
+                    url={data.url}
+                />
+                <Link to={`/Workouts/${localStorage.getItem('day')}/${data.data}`}>Start Workout!</Link>
+
+                </li>
+            ))
+        }
+    </ul> : (localStorage.getItem('day') == 2)? 
+    <ul>
+    { 
+        Back.map((data, key) => (
+            <li key={key}>
+                
+            <Explanation
+                id={data.id}
+                title={data.title}
+                url={data.url}
+            />
+            <Link to={`/Workouts/${localStorage.getItem('day')}/${data.data}`}>Start Workout!</Link>
+
+            </li>
+        ))
+    }
+    </ul> :
+    <ul>
+    { 
+        Legs.map((data, key) => (
+            <li key={key}>
+                
+            <Explanation
+                id={data.id}
+                title={data.title}
+                url={data.url}
+            />
+            <Link to={`/Workouts/${localStorage.getItem('day')}/${data.data}`}>Start Workout!</Link>
+
+            </li>
+        ))
+    }
+    </ul> 
+    )
+
     return (
-        <div className = "Notes">
-            <h1>WorkOut!</h1>   
+        <div>
+            <div className = "Notes">
             {renderNotes(selectedNote || notes )}
+            <h3>Excercises:</h3>
+            <RenderData />
+            </div>
         </div>
     );
 };

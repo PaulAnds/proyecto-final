@@ -8,14 +8,14 @@ function Home(props) {
     
     let navigate = useNavigate(); 
     const routeChange = () =>{ 
-    let path = `/about`; 
+    let path = `/Workouts`; 
     navigate(path);
   }
     return (
         <div className= "container">
             <div>
             <h2>WE GO JIM</h2>
-            <img src={zyzz} width='400px'/>
+            <img src={zyzz} width='400px' alt=''/>
             <button className="btn" onClick={routeChange}>Start WorkOut</button>
             </div>
         </div>

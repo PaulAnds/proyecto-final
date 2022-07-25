@@ -11,6 +11,7 @@ function About() {
             key={lists.id}
             id={lists.id}
             title={lists.title}
+            url={lists.url}
             description={lists.description}
         />
     ))
